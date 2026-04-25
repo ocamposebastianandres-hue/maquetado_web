@@ -1,0 +1,23 @@
+git init
+"sirve parta iniciar el repositorio local"
+
+git config --local user.name "ocampi"
+(esto configura el usuario localmente)
+
+gitconfig __local user.name "ocamposebastianandres@gmail.com"
+(esto configura al email del usuario asociado a la cuenta github)
+
+git add .
+(añade todos los archivos al repositorio)
+
+git branch -m main
+(cambiar el nombre de la rama de master a main)
+
+git commit -m "versión de subida"
+(es la version que usted esta subiendo al repo)
+
+git push -u origin main
+(este empuja los cambios locales a la nube).
+
+git status
+(comprueba el estado de la rama)
